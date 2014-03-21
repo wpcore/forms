@@ -1,8 +1,6 @@
 {
-  "name": "loumray/wpcore",
-  "description": "Object Oriented core to simplify plugins and themes development for wordpress",
-  "keywords": ["wordpress", "plugins", "theme"],
-  "homepage": "https://github.com/loumray/wpcore",
+  "name": "wpcore/forms",
+  "keywords": ["wordpress", "metabox", "fields", "forms"],
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -15,6 +13,7 @@
     "php": ">=5.3.0"
   },
   "autoload": {
-        "psr-4": { "WPCore\\": "src/" }
-   }
+        "psr-4": { "WPCore\\Forms": "" }
+  },
+  "target-dir": "Forms"
 }
